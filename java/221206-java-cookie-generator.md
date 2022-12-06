@@ -8,13 +8,13 @@ Can serve / as base class / for components / that generate specific cookies / ,s
 
 **특정 쿠키를 생성하는 base 클래스를 컴포넌트들을 위해 제공할 수 있다. CookieLocalResolver나 CookieThemeResolver처럼.**
 
-### setCookiePath
+## setCookiePath
 
 Use the given path / for cookies / created by this generator. The cookie is only visible / to URLs in this path / and below.
 
 **쿠키의 경로를 지정하는데 사용한다. 쿠키는 지정된 경로나 그 하위 경로에서만 활성화 된다.**
 
-### setCookieMaxAge
+## setCookieMaxAge
 
 Use the given maximum age (in seconds) / for cookies / created by this generator. / Useful special value: -1 ... not persistent, / deleted when client shuts down. / Default is no specific maximum age at all, / using the Servlet container's
 
