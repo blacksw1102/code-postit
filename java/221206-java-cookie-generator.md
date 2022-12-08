@@ -24,7 +24,7 @@ Use the given maximum age (in seconds) / for cookies / created by this generator
 
 ### sample
 
-```
+```java
 public void addCookie(HttpServletRequest response) {
   CookieGenerator cg = new CookieGenerator();
   cg.setCookieName("view");
